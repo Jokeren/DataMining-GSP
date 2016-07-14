@@ -1,0 +1,181 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARGH	gsp_utils.h	/^	const static char *ARGH[N_ARG] = { "-i", "-t", "-sequNUM", "-eventNUM", "-min", "-max", "-sep", "-file_type"};$/;"	m	namespace:gsp
+COMMON_H	common.h	2;"	d
+CXXFLAGS	Makefile	/^CXXFLAGS=-g -O2$/;"	m
+DATABASE_H	database.h	2;"	d
+DEFAULT	gsp_utils.h	/^		DEFAULT,$/;"	e	enum:gsp::__anon1
+DataBase	database.h	/^			DataBase(){}$/;"	f	class:gsp::DataBase
+DataBase	database.h	/^	class DataBase {$/;"	c	namespace:gsp
+GSP_ERROR	common.h	/^	GSP_ERROR,$/;"	e	enum:gsp::_Gsp_Return_Code
+GSP_FILE_NCOUNT	common.h	/^	GSP_FILE_NCOUNT$/;"	e	enum:gsp::_Gsp_File_Type
+GSP_H	gsp.h	2;"	d
+GSP_HASH_TREE_H	gsp_hash_tree.h	2;"	d
+GSP_NORMAL	common.h	/^	GSP_NORMAL,$/;"	e	enum:gsp::_Gsp_File_Type
+GSP_RETURN_NCOUNT	common.h	/^	GSP_RETURN_NCOUNT$/;"	e	enum:gsp::_Gsp_Return_Code
+GSP_SPMF	common.h	/^	GSP_SPMF,$/;"	e	enum:gsp::_Gsp_File_Type
+GSP_SUCCESS	common.h	/^	GSP_SUCCESS,$/;"	e	enum:gsp::_Gsp_Return_Code
+GSP_UTILS_H	gsp_utils.h	2;"	d
+GSP_WARNING	common.h	/^	GSP_WARNING,$/;"	e	enum:gsp::_Gsp_Return_Code
+Gsp	gsp.h	/^			Gsp() {$/;"	f	class:gsp::Gsp
+Gsp	gsp.h	/^			Gsp(const char *file_path, uint32_t support, uint32_t nsequences,$/;"	f	class:gsp::Gsp
+Gsp	gsp.h	/^	class Gsp {$/;"	c	namespace:gsp
+GspFileType	common.h	/^} GspFileType;$/;"	t	namespace:gsp	typeref:enum:gsp::_Gsp_File_Type
+GspReturnCode	common.h	/^} GspReturnCode;$/;"	t	namespace:gsp	typeref:enum:gsp::_Gsp_Return_Code
+Gsp_Hash_tree	gsp_hash_tree.h	/^			Gsp_Hash_tree() : $/;"	f	class:gsp::Gsp_Hash_tree
+Gsp_Hash_tree	gsp_hash_tree.h	/^			Gsp_Hash_tree(uint32_t _max_seq_length, uint32_t _min_gap, uint32_t _max_gap) : $/;"	f	class:gsp::Gsp_Hash_tree
+Gsp_Hash_tree	gsp_hash_tree.h	/^			Gsp_Hash_tree(uint32_t _node_size, uint32_t _hash_blocks_num, uint32_t _max_seq_length, uint32_t _min_gap, uint32_t _max_gap) : $/;"	f	class:gsp::Gsp_Hash_tree
+Gsp_Hash_tree	gsp_hash_tree.h	/^	class Gsp_Hash_tree {$/;"	c	namespace:gsp
+MAX_LENGTH	seperator.cc	/^static const int MAX_LENGTH = 10240;$/;"	v	file:
+N_ARG	gsp_utils.h	/^	const static uint32_t N_ARG = 8;$/;"	m	namespace:gsp
+Pattern	gsp.h	/^			Pattern() : _m_support(0), _m_length(0) {}$/;"	f	class:gsp::Pattern
+Pattern	gsp.h	/^			Pattern(uint32_t support, uint32_t length) : $/;"	f	class:gsp::Pattern
+Pattern	gsp.h	/^	class Pattern: public events {$/;"	c	namespace:gsp
+SEPERATOR_H	seperator.h	2;"	d
+SEP_COUNT	gsp_utils.h	/^		SEP_COUNT$/;"	e	enum:gsp::__anon1
+Seperator	seperator.h	/^		Seperator(const char* token): _m_token(token) {$/;"	f	class:gsp::Seperator
+Seperator	seperator.h	/^class Seperator {$/;"	c	namespace:gsp
+Sequence	gsp.h	/^			Sequence():_m_sequence_id(0) {$/;"	f	class:gsp::Sequence
+Sequence	gsp.h	/^			Sequence(const uint32_t sequence_id) : _m_sequence_id(sequence_id) {$/;"	f	class:gsp::Sequence
+Sequence	gsp.h	/^	class Sequence: public events {$/;"	c	namespace:gsp
+_Gsp_File_Type	common.h	/^typedef enum _Gsp_File_Type {$/;"	g	namespace:gsp
+_Gsp_Return_Code	common.h	/^typedef enum _Gsp_Return_Code {$/;"	g	namespace:gsp
+_m_file_path	gsp.h	/^			const char *_m_file_path;$/;"	m	class:gsp::Gsp
+_m_instance	database.h	/^			static DataBase *_m_instance;$/;"	m	class:gsp::DataBase
+_m_items	gsp.h	/^			std::vector<uint32_t> _m_items;$/;"	m	class:gsp::Pattern
+_m_items_time_list	gsp.h	/^			std::map<uint32_t, std::vector<uint32_t> > _m_items_time_list;$/;"	m	class:gsp::Sequence
+_m_length	gsp.h	/^			uint32_t _m_length;$/;"	m	class:gsp::Pattern
+_m_max_gap	gsp.h	/^			uint32_t _m_max_gap;$/;"	m	class:gsp::Gsp
+_m_max_sequences_length	database.h	/^			uint32_t _m_max_sequences_length;$/;"	m	class:gsp::DataBase
+_m_min_gap	gsp.h	/^			uint32_t _m_min_gap;$/;"	m	class:gsp::Gsp
+_m_nevents	gsp.h	/^			uint32_t _m_nevents;$/;"	m	class:gsp::Gsp
+_m_nsequences	gsp.h	/^			uint32_t _m_nsequences;$/;"	m	class:gsp::Gsp
+_m_pattern	gsp.h	/^			std::string _m_pattern;$/;"	m	class:gsp::Pattern
+_m_seperator	gsp.h	/^			Seperator *_m_seperator;$/;"	m	class:gsp::Gsp
+_m_seperator_type	gsp.h	/^			const char *_m_seperator_type;$/;"	m	class:gsp::Gsp
+_m_sequence_id	gsp.h	/^			uint32_t _m_sequence_id;$/;"	m	class:gsp::Sequence
+_m_support	gsp.h	/^			uint32_t _m_support;$/;"	m	class:gsp::Gsp
+_m_support	gsp.h	/^			uint32_t _m_support;$/;"	m	class:gsp::Pattern
+_m_token	seperator.h	/^		const char* _m_token;	$/;"	m	class:gsp::Seperator
+atof_	gsp_utils.cc	/^	double inline atof_(const char *str)$/;"	f	namespace:gsp
+bulid_gsp_hash_tree	gsp_hash_tree.cc	/^	void Gsp_Hash_tree::bulid_gsp_hash_tree(std::vector<Pattern>& patterns)$/;"	f	class:gsp::Gsp_Hash_tree
+c_str	pattern.cc	/^	const char* Pattern::c_str() $/;"	f	class:gsp::Pattern
+check_item_set	database_count.cc	/^	bool DataBase::check_item_set(const item_set& items_parent, const item_set& items_child) $/;"	f	class:gsp::DataBase
+check_node_with_subsequence	gsp_hash_tree.cc	/^	void Gsp_Hash_tree::check_node_with_subsequence(patterns_node *interior_node, size_t depth, $/;"	f	class:gsp::Gsp_Hash_tree
+check_pattern	database_count.cc	/^	bool DataBase::check_pattern(const Pattern& pattern_a, const Pattern& pattern_b) $/;"	f	class:gsp::DataBase
+check_pattern_sequence	database_count.cc	/^	bool DataBase::check_pattern_sequence(const Pattern& candidate, const Sequence& sequence, uint32_t min_gap, uint32_t max_gap)$/;"	f	class:gsp::DataBase
+check_pattern_sequence_time_list	database_count.cc	/^	bool DataBase::check_pattern_sequence_time_list(const Pattern& candidate, const Sequence& sequence, uint32_t min_gap, uint32_t max_gap)$/;"	f	class:gsp::DataBase
+checked	gsp_hash_tree.h	/^		int32_t checked;$/;"	m	struct:gsp::patterns_node_t
+children	gsp_hash_tree.h	/^		std::vector<struct patterns_node_t *> children;$/;"	m	struct:gsp::patterns_node_t
+count_candidates_with_brute_force	database_create.cc	/^	void DataBase::count_candidates_with_brute_force(std::vector<Pattern>& pattern_candidates, uint32_t min_support, uint32_t min_gap, uint32_t max_gap)$/;"	f	class:gsp::DataBase
+count_candidates_with_hash_tree	database_create.cc	/^	void DataBase::count_candidates_with_hash_tree(std::vector<Pattern>& pattern_candidates, uint32_t k, uint32_t nevents, uint32_t min_gap, uint32_t max_gap) $/;"	f	class:gsp::DataBase
+count_pattern	database_count.cc	/^	bool DataBase::count_pattern(const Pattern& pattern, uint32_t min_support, uint32_t min_gap, uint32_t max_gap, uint32_t& ncount) $/;"	f	class:gsp::DataBase
+create_patterns	database_create.cc	/^	bool DataBase::create_patterns(uint32_t k, uint32_t nevents, uint32_t min_support, uint32_t min_gap, uint32_t max_gap) $/;"	f	class:gsp::DataBase
+database	gsp_hash_tree.h	/^			DataBase *database;$/;"	m	class:gsp::Gsp_Hash_tree
+delete_gsp_hash_tree	gsp_hash_tree.cc	/^	void Gsp_Hash_tree::delete_gsp_hash_tree()$/;"	f	class:gsp::Gsp_Hash_tree
+delete_node	gsp_hash_tree.cc	/^	void Gsp_Hash_tree::delete_node(patterns_node *tree_node, std::string prefix)$/;"	f	class:gsp::Gsp_Hash_tree
+events	gsp.h	/^	typedef std::vector<item_set> events;$/;"	t	namespace:gsp
+execute	gsp_execute.cc	/^void Gsp::execute(const char* file_path, uint32_t support, uint32_t nsequences,$/;"	f	class:gsp::Gsp
+file_path	gsp_utils.h	/^		char* file_path;$/;"	m	struct:gsp::parameters
+file_type	gsp_utils.h	/^		uint32_t file_type;$/;"	m	struct:gsp::parameters
+find_count_potential_patterns	gsp_hash_tree.cc	/^	void Gsp_Hash_tree::find_count_potential_patterns(const Sequence& sequence)$/;"	f	class:gsp::Gsp_Hash_tree
+find_frequent_item_set	database_create.cc	/^	bool DataBase::find_frequent_item_set(uint32_t nevents, uint32_t min_support) $/;"	f	class:gsp::DataBase
+generate	database_create.cc	/^	void DataBase::generate(Pattern& pattern, $/;"	f	class:gsp::DataBase
+generate_candidates	gsp_generate_candidates.cc	/^	bool Gsp::generate_candidates(uint32_t k)$/;"	f	class:gsp::Gsp
+generate_two	database_create.cc	/^	void DataBase::generate_two(Pattern& newpattern, const Pattern& pattern_a, const Pattern& pattern_b)$/;"	f	class:gsp::DataBase
+generate_two	database_create.cc	/^	void DataBase::generate_two(Pattern& newpattern_a, Pattern& newpattern_b, Pattern& newpattern_c, $/;"	f	class:gsp::DataBase
+get_file_type	gsp_utils.cc	/^	void get_file_type(struct parameters* p_parameters, GspFileType& file_type)$/;"	f	namespace:gsp
+get_instance	database.h	/^			static DataBase *get_instance() {$/;"	f	class:gsp::DataBase
+get_length	gsp.h	/^			uint32_t get_length() const {$/;"	f	class:gsp::Pattern
+get_max_sequence_length	database.h	/^			uint32_t get_max_sequence_length() const $/;"	f	class:gsp::DataBase
+get_narg	gsp_utils.cc	/^	uint32_t get_narg()$/;"	f	namespace:gsp
+get_nsupport	gsp_utils.cc	/^	uint32_t get_nsupport(gsp::parameters* p_parameters)$/;"	f	namespace:gsp
+get_parameters	gsp_utils.cc	/^	uint32_t get_parameters(gsp::parameters* p_parameters, int argc, char* argv[])$/;"	f	namespace:gsp
+get_seperator	gsp_utils.cc	/^	void get_seperator(gsp::parameters* p_parameters,std::string &seperator)$/;"	f	namespace:gsp
+get_sequence_id	gsp.h	/^			uint32_t get_sequence_id() const {$/;"	f	class:gsp::Sequence
+get_support	gsp.h	/^			uint32_t get_support() const {$/;"	f	class:gsp::Pattern
+get_timestamp	sequence.cc	/^	int32_t Sequence::get_timestamp(uint32_t id, uint32_t idx) const $/;"	f	class:gsp::Sequence
+get_unique_size	gsp.h	/^			size_t get_unique_size() const {$/;"	f	class:gsp::Sequence
+gsp	common.h	/^namespace gsp {$/;"	n
+gsp	database.h	/^namespace gsp {$/;"	n
+gsp	database_count.cc	/^namespace gsp {$/;"	n	file:
+gsp	database_create.cc	/^namespace gsp {$/;"	n	file:
+gsp	database_init.cc	/^namespace gsp {$/;"	n	file:
+gsp	database_prune.cc	/^namespace gsp {$/;"	n	file:
+gsp	gsp.h	/^namespace gsp {$/;"	n
+gsp	gsp_execute.cc	/^namespace gsp{$/;"	n	file:
+gsp	gsp_generate_candidates.cc	/^namespace gsp {$/;"	n	file:
+gsp	gsp_hash_tree.cc	/^namespace gsp{$/;"	n	file:
+gsp	gsp_hash_tree.h	/^namespace gsp{$/;"	n
+gsp	gsp_print_patterns.cc	/^namespace gsp {$/;"	n	file:
+gsp	gsp_read_input.cc	/^namespace gsp {$/;"	n	file:
+gsp	gsp_utils.cc	/^namespace gsp {$/;"	n	file:
+gsp	gsp_utils.h	/^namespace gsp {$/;"	n
+gsp	pattern.cc	/^namespace gsp {$/;"	n	file:
+gsp	seperator.cc	/^namespace gsp {$/;"	n	file:
+gsp	seperator.h	/^namespace gsp {$/;"	n
+gsp	sequence.cc	/^namespace gsp {$/;"	n	file:
+hash_blocks_num	gsp_hash_tree.h	/^			uint32_t hash_blocks_num;$/;"	m	class:gsp::Gsp_Hash_tree
+hash_tree_root	gsp_hash_tree.h	/^			patterns_node *hash_tree_root;$/;"	m	class:gsp::Gsp_Hash_tree
+id	gsp.h	/^		uint32_t id;$/;"	m	struct:gsp::item_t
+increase_support	gsp.h	/^			void increase_support() {$/;"	f	class:gsp::Pattern
+input	common.h	/^typedef std::vector<std::vector<std::string> > input;$/;"	t	namespace:gsp
+item_set	database.h	/^	typedef struct item_set_t item_set;$/;"	t	namespace:gsp	typeref:struct:gsp::item_set_t
+item_set	gsp.h	/^	typedef struct item_set_t item_set;$/;"	t	namespace:gsp	typeref:struct:gsp::item_set_t
+item_set_t	gsp.h	/^	struct item_set_t: public std::set<struct item_t> {$/;"	s	namespace:gsp
+item_t	gsp.h	/^	struct item_t {$/;"	s	namespace:gsp
+items_list	pattern.cc	/^	const std::vector<uint32_t> Pattern::items_list() $/;"	f	class:gsp::Pattern
+main	main.cc	/^int main(int argc, char* argv[])$/;"	f
+make_list	sequence.cc	/^	void Sequence::make_list()$/;"	f	class:gsp::Sequence
+match_item_set	database_prune.cc	/^	bool DataBase::match_item_set(const item_set& items_a, const item_set& items_b) $/;"	f	class:gsp::DataBase
+match_pattern	database_prune.cc	/^	bool DataBase::match_pattern(const Pattern& pattern_a, const Pattern& pattern_b) {$/;"	f	class:gsp::DataBase
+max_gap	gsp_hash_tree.h	/^			uint32_t max_gap;$/;"	m	class:gsp::Gsp_Hash_tree
+max_gap	gsp_utils.h	/^		uint32_t max_gap;$/;"	m	struct:gsp::parameters
+max_sequence_length	gsp_hash_tree.h	/^			uint32_t max_sequence_length;$/;"	m	class:gsp::Gsp_Hash_tree
+min_gap	gsp_hash_tree.h	/^			uint32_t min_gap;$/;"	m	class:gsp::Gsp_Hash_tree
+min_gap	gsp_utils.h	/^		uint32_t min_gap;$/;"	m	struct:gsp::parameters
+nevents	gsp_utils.h	/^		uint32_t nevents;$/;"	m	struct:gsp::parameters
+node_patterns	gsp_hash_tree.h	/^		std::vector<Pattern *> node_patterns;$/;"	m	struct:gsp::patterns_node_t
+node_size	gsp_hash_tree.h	/^			uint32_t node_size;$/;"	m	class:gsp::Gsp_Hash_tree
+nsequences	gsp_utils.h	/^		uint32_t nsequences;$/;"	m	struct:gsp::parameters
+nsupport	gsp_utils.h	/^		uint32_t nsupport;$/;"	m	struct:gsp::parameters
+objects	Makefile	/^objects=main.o gsp_read_input.o gsp_execute.o gsp_generate_candidates.o gsp_print_patterns.o \\$/;"	m
+operator <	gsp.h	/^		bool operator < (const struct item_set_t& t) const {$/;"	f	struct:gsp::item_set_t
+operator <	gsp.h	/^		bool operator < (const struct item_t& t) const {$/;"	f	struct:gsp::item_t
+parameters	gsp_utils.h	/^	struct parameters{$/;"	s	namespace:gsp
+patern_length	gsp_hash_tree.h	/^			uint32_t patern_length;$/;"	m	class:gsp::Gsp_Hash_tree
+patterns	database.h	/^			std::vector<Pattern> patterns;	$/;"	m	class:gsp::DataBase
+patterns_iterator	database.h	/^			typedef std::vector<Pattern>::iterator patterns_iterator;$/;"	t	class:gsp::DataBase
+patterns_node	gsp_hash_tree.h	/^	typedef struct patterns_node_t patterns_node;$/;"	t	namespace:gsp	typeref:struct:gsp::patterns_node_t
+patterns_node_t	gsp_hash_tree.h	/^		patterns_node_t() {};$/;"	f	struct:gsp::patterns_node_t
+patterns_node_t	gsp_hash_tree.h	/^	struct patterns_node_t {$/;"	s	namespace:gsp
+print_parameters	gsp_utils.cc	/^	void print_parameters(gsp::parameters* p_parameters)$/;"	f	namespace:gsp
+print_patterns	database_init.cc	/^	void DataBase::print_patterns()$/;"	f	class:gsp::DataBase
+print_patterns	gsp_print_patterns.cc	/^	void Gsp::print_patterns(uint32_t k)$/;"	f	class:gsp::Gsp
+print_tree	gsp_hash_tree.cc	/^	void Gsp_Hash_tree::print_tree(patterns_node *p, std::string prefix)$/;"	f	class:gsp::Gsp_Hash_tree
+prune	database_prune.cc	/^	bool DataBase::prune(const Pattern& pattern) $/;"	f	class:gsp::DataBase
+push_item_set	database_init.cc	/^	void DataBase::push_item_set(const item_set& items, uint32_t sequence_id) $/;"	f	class:gsp::DataBase
+read_input_normal	gsp_read_input.cc	/^void Gsp::read_input_normal(const input& stream)$/;"	f	class:gsp::Gsp
+read_input_spmf	gsp_read_input.cc	/^void Gsp::read_input_spmf(const input& stream)$/;"	f	class:gsp::Gsp
+sep_type	gsp_utils.h	/^		uint32_t sep_type;$/;"	m	struct:gsp::parameters
+seperate	seperator.cc	/^	uint32_t Seperator::seperate(const char* file_path, $/;"	f	class:gsp::Seperator
+sequences	database.h	/^			std::map<int, Sequence> sequences;$/;"	m	class:gsp::DataBase
+sequences_iterator	database.h	/^			typedef std::map<int, Sequence>::iterator sequences_iterator;$/;"	t	class:gsp::DataBase
+set_hash_blocks_num	gsp_hash_tree.h	/^			void set_hash_blocks_num(const uint32_t _hash_blocks_num) {$/;"	f	class:gsp::Gsp_Hash_tree
+set_length	gsp.h	/^			void set_length(uint32_t length) {$/;"	f	class:gsp::Pattern
+set_max_sequence_length	database.h	/^			void set_max_sequence_length(uint32_t length) $/;"	f	class:gsp::DataBase
+set_node_size	gsp_hash_tree.h	/^			void set_node_size(const uint32_t _node_zise) {$/;"	f	class:gsp::Gsp_Hash_tree
+set_sequence_id	gsp.h	/^			void set_sequence_id(const uint32_t sequence_id) {$/;"	f	class:gsp::Sequence
+set_support	gsp.h	/^			void set_support(uint32_t support) {$/;"	f	class:gsp::Pattern
+sort_sequences	database_init.cc	/^	void DataBase::sort_sequences()$/;"	f	class:gsp::DataBase
+split_node	gsp_hash_tree.cc	/^	void Gsp_Hash_tree::split_node(patterns_node *interior_node, size_t item_idx)$/;"	f	class:gsp::Gsp_Hash_tree
+support	gsp_utils.h	/^		double support;$/;"	m	struct:gsp::parameters
+timestamp	gsp.h	/^		uint32_t timestamp;$/;"	m	struct:gsp::item_set_t
+transform	pattern.cc	/^	void Pattern::transform() $/;"	f	class:gsp::Pattern
+transform_to_list	pattern.cc	/^	void Pattern::transform_to_list()$/;"	f	class:gsp::Pattern
+usage	gsp_utils.cc	/^	void usage()$/;"	f	namespace:gsp
+visited	gsp_hash_tree.h	/^		std::vector<int32_t> visited;$/;"	m	struct:gsp::patterns_node_t

@@ -1,0 +1,359 @@
+1  1  A  B  C  E  F  H  I  J  
+1  2  B  F  
+1  3  B  G  H  
+1  4  B  C  D  G  I  
+1  5  B  C  G  H  I  J  
+1  6  B  C  D  E  F  H  I  J  
+2  1  D  H  J  
+2  2  I  J  
+2  3  A  C  E  F  G  I  J  
+3  1  G  
+3  2  D  I  
+3  3  A  B  C  D  E  F  G  H  I  J  
+3  4  A  B  C  D  E  F  G  H  I  J  
+3  5  A  B  C  D  E  F  G  H  
+4  1  A  B  E  
+4  2  A  B  D  F  H  I  J  
+4  3  C  I  
+4  4  A  B  C  D  F  G  I  
+4  5  J  
+4  6  B  D  F  H  I  
+5  1  B  
+5  2  A  B  D  E  G  I  J  
+5  3  A  B  C  D  E  F  G  H  I  J  
+6  1  A  D  E  G  H  I  
+6  2  A  B  C  E  F  G  H  I  J  
+6  3  F  G  I  
+6  4  D  F  G  
+7  1  B  E  G  
+7  2  A  B  C  D  F  G  H  I  J  
+8  1  A  B  C  D  E  F  G  H  I  J  
+8  2  B  C  D  E  F  G  H  I  J  
+8  3  B  C  D  E  F  G  I  
+8  4  A  B  C  D  F  G  J  
+9  1  A  B  C  D  E  F  G  H  I  J  
+9  2  E  F  H  
+9  3  A  C  D  E  J  
+10  1  A  C  D  E  F  H  I  J  
+10  2  B  C  D  F  
+10  3  B  C  F  G  
+10  4  A  D  E  F  H  
+10  5  A  B  G  H  
+10  6  A  E  F  G  I  J  
+11  1  G  I  
+11  2  B  E  I  J  
+11  3  A  G  H  
+11  4  H  
+11  5  F  
+12  1  C  D  E  F  G  H  I  J  
+13  1  D  F  H  I  J  
+13  2  C  
+13  3  D  G  H  
+13  4  E  F  
+14  1  A  B  G  
+14  2  B  H  
+14  3  A  D  E  I  
+14  4  B  
+14  5  A  D  J  
+15  1  A  B  D  E  F  G  H  I  J  
+15  2  A  D  F  
+15  3  B  C  D  F  G  H  J  
+15  4  A  B  C  D  E  F  G  H  I  J  
+15  5  A  B  D  E  F  I  J  
+16  1  D  E  F  G  H  
+16  2  A  B  I  
+17  1  C  F  
+17  2  B  E  H  
+18  1  A  D  G  
+18  2  A  C  F  I  
+18  3  A  B  C  D  F  H  I  J  
+19  1  A  E  
+20  1  B  C  D  E  F  J  
+20  2  A  B  C  D  E  F  G  H  I  J  
+20  3  F  H  
+21  1  B  C  E  J  
+21  2  I  
+22  1  A  F  G  H  I  
+22  2  A  B  C  D  E  G  I  J  
+23  1  F  
+23  2  C  D  E  H  I  J  
+23  3  A  B  C  D  E  F  G  I  J  
+23  4  A  B  C  D  H  I  
+23  5  D  
+24  1  A  D  H  J  
+24  2  B  D  F  H  I  J  
+24  3  A  B  C  D  E  G  H  I  J  
+24  4  D  E  F  G  H  I  J  
+25  1  B  F  G  I  J  
+25  2  C  D  E  F  G  I  J  
+25  3  B  C  D  F  G  
+25  4  C  E  F  G  I  
+25  5  A  B  C  F  G  H  
+26  1  C  D  G  I  
+26  2  D  E  G  
+26  3  A  B  D  E  F  G  H  I  J  
+26  4  B  C  I  J  
+26  5  A  D  E  
+27  1  B  D  I  J  
+27  2  B  C  D  E  F  I  
+27  3  A  B  C  D  E  F  G  H  I  J  
+28  1  A  B  D  I  
+28  2  A  B  E  I  
+28  3  B  D  E  F  H  I  
+28  4  A  D  G  H  I  J  
+29  1  A  B  C  D  E  F  G  H  I  J  
+29  2  A  B  C  D  E  F  G  H  J  
+29  3  B  C  D  E  F  G  H  I  J  
+29  4  A  C  F  H  I  J  
+29  5  A  B  C  G  H  I  
+30  1  A  C  F  H  I  J  
+30  2  B  C  E  G  I  J  
+30  3  A  B  C  D  E  F  H  I  J  
+30  4  A  B  C  D  E  F  G  H  I  J  
+31  1  C  E  G  
+31  2  A  B  C  D  E  F  G  H  I  J  
+32  1  A  B  C  D  E  F  G  H  I  J  
+32  2  A  B  C  D  E  F  G  H  I  J  
+33  1  B  D  G  H  I  
+33  2  A  B  C  D  F  G  H  I  J  
+33  3  B  E  J  
+33  4  A  B  C  D  E  H  
+34  1  A  B  C  D  E  F  H  J  
+34  2  A  B  C  D  E  F  G  H  I  J  
+34  3  A  C  D  F  G  I  
+35  1  G  
+35  2  A  C  E  H  I  J  
+36  1  A  B  C  D  E  F  H  I  J  
+36  2  B  D  I  
+36  3  A  B  D  E  H  
+37  1  I  
+37  2  A  E  
+37  3  A  B  C  D  E  F  I  J  
+37  4  H  
+37  5  A  B  C  F  I  J  
+37  6  A  B  C  D  E  F  G  H  I  J  
+38  1  A  B  C  D  E  F  G  H  I  J  
+38  2  F  G  
+38  3  A  B  F  G  H  I  J  
+39  1  A  B  C  D  E  F  G  H  I  J  
+39  2  B  G  H  
+39  3  A  B  C  D  E  F  H  
+39  4  A  B  C  D  E  F  H  I  J  
+40  1  C  G  H  
+40  2  A  B  H  
+41  1  A  B  C  D  E  F  G  H  I  J  
+41  2  B  C  D  E  F  G  H  I  
+41  3  A  C  D  E  F  G  H  I  J  
+41  4  A  B  D  F  G  I  J  
+42  1  D  F  
+42  2  A  B  D  H  J  
+43  1  B  C  F  J  
+43  2  B  G  H  
+43  3  B  
+44  1  A  C  J  
+44  2  A  B  D  G  H  I  
+44  3  E  F  H  I  J  
+44  4  A  E  F  G  H  I  J  
+45  1  A  B  C  D  E  F  G  H  I  J  
+45  2  A  B  C  D  E  F  G  H  
+45  3  I  
+46  1  B  G  I  J  
+46  2  A  B  C  D  E  F  G  I  J  
+46  3  A  C  F  
+46  4  A  C  D  G  H  I  
+47  1  A  C  D  E  F  G  H  
+48  1  B  C  D  E  F  G  H  I  J  
+48  2  A  
+49  1  A  B  C  D  E  F  G  H  I  J  
+49  2  A  B  D  F  G  I  J  
+49  3  F  G  H  
+49  4  D  F  I  J  
+49  5  C  
+49  6  B  E  F  H  I  J  
+50  1  A  B  C  D  E  F  H  I  
+50  2  A  F  
+50  3  B  C  D  F  I  J  
+50  4  C  E  I  
+50  5  A  B  D  E  F  G  I  J  
+50  6  A  D  E  F  G  H  I  J  
+51  1  A  B  C  D  E  F  G  J  
+52  1  D  E  J  
+52  2  A  B  D  F  G  H  I  J  
+52  3  A  F  G  
+52  4  A  B  C  D  E  G  H  J  
+53  1  B  D  F  G  
+53  2  A  B  C  D  E  F  G  H  I  J  
+53  3  A  C  E  F  G  H  J  
+53  4  A  C  F  G  
+53  5  A  B  C  D  F  G  H  I  J  
+53  6  B  C  F  G  H  I  J  
+54  1  A  B  D  E  F  I  J  
+54  2  B  D  F  
+55  1  A  B  C  D  E  F  G  H  I  J  
+56  1  A  B  C  D  F  G  H  I  J  
+56  2  A  B  C  D  E  F  H  I  J  
+56  3  A  B  D  F  G  H  I  J  
+57  1  A  D  E  H  
+57  2  A  B  C  D  
+57  3  B  D  H  
+57  4  H  
+57  5  D  
+58  1  B  F  G  J  
+58  2  B  F  
+58  3  J  
+58  4  A  B  D  E  F  H  I  J  
+58  5  A  B  C  D  E  F  G  H  I  J  
+59  1  A  B  C  F  G  H  I  
+59  2  B  C  D  E  F  G  H  I  J  
+59  3  A  B  E  I  
+59  4  B  D  E  F  G  H  I  J  
+60  1  D  E  F  G  H  
+60  2  A  C  D  E  H  I  J  
+61  1  A  D  E  H  J  
+61  2  F  G  H  I  J  
+62  1  A  B  C  D  E  F  G  H  J  
+62  2  A  B  F  G  
+62  3  A  C  D  E  F  G  H  I  J  
+62  4  A  B  D  F  H  I  
+62  5  B  E  F  G  H  
+63  1  A  B  C  F  G  
+63  2  C  D  F  H  I  J  
+63  3  B  C  D  E  F  G  I  J  
+63  4  A  C  D  F  H  I  
+63  5  B  C  G  I  J  
+64  1  A  B  C  D  E  F  G  H  I  J  
+64  2  D  I  
+64  3  A  B  C  D  E  F  G  H  J  
+64  4  B  D  J  
+64  5  A  B  C  D  E  F  H  I  J  
+65  1  A  B  C  E  G  I  
+65  2  E  G  H  I  J  
+65  3  A  C  D  E  G  H  I  J  
+65  4  A  B  C  D  E  F  G  H  I  J  
+66  1  A  B  D  
+66  2  B  C  D  E  F  G  H  I  J  
+66  3  E  
+67  1  A  B  C  D  E  F  I  J  
+67  2  D  
+67  3  C  D  G  
+67  4  B  F  G  I  
+67  5  B  D  J  
+67  6  A  B  C  D  E  F  G  H  I  J  
+68  1  A  B  C  D  F  G  J  
+68  2  A  B  C  D  E  F  G  H  I  J  
+69  1  A  C  D  E  G  H  I  J  
+70  1  A  B  C  D  E  F  G  H  
+71  1  A  B  G  
+71  2  A  B  C  D  E  F  G  H  I  J  
+71  3  B  E  G  H  
+71  4  A  B  C  D  E  F  H  I  J  
+71  5  G  H  
+72  1  B  D  G  J  
+72  2  A  C  F  H  
+72  3  A  B  C  E  F  G  H  I  
+73  1  A  B  D  E  F  G  H  I  
+73  2  A  B  C  D  E  F  G  H  I  J  
+73  3  J  
+73  4  A  I  
+73  5  C  G  I  
+73  6  A  B  C  D  E  F  G  H  I  J  
+74  1  F  H  
+74  2  A  C  H  
+75  1  A  C  D  E  G  I  J  
+75  2  C  E  H  
+76  1  B  C  D  E  F  
+76  2  G  J  
+76  3  A  B  C  D  E  F  G  H  I  
+76  4  A  B  D  F  H  
+76  5  B  H  J  
+76  6  A  E  
+77  1  B  D  F  I  
+77  2  F  
+78  1  C  
+78  2  A  B  E  G  I  J  
+78  3  B  C  E  G  H  I  
+78  4  A  B  C  D  E  F  J  
+78  5  A  B  D  G  I  
+78  6  A  B  F  I  
+79  1  D  E  I  J  
+79  2  A  B  C  D  E  F  G  H  I  J  
+79  3  A  B  C  D  E  F  G  H  I  
+79  4  A  B  C  D  E  F  I  J  
+79  5  E  I  
+79  6  B  D  E  G  H  I  J  
+80  1  C  E  F  H  
+80  2  A  C  D  F  G  H  I  J  
+80  3  B  
+80  4  B  D  E  F  G  I  
+80  5  C  D  F  G  H  I  
+81  1  A  B  C  D  E  F  G  
+81  2  A  B  C  D  E  F  G  H  J  
+81  3  A  B  D  E  H  J  
+81  4  A  B  C  D  E  H  
+81  5  A  B  C  D  F  H  I  J  
+81  6  B  D  E  G  H  
+82  1  B  C  D  E  F  G  H  I  J  
+82  2  A  B  C  E  F  G  I  J  
+82  3  C  D  E  F  J  
+82  4  E  H  
+82  5  A  B  H  J  
+83  1  B  C  D  E  F  G  H  I  J  
+83  2  C  D  
+83  3  A  B  C  D  E  F  G  I  J  
+83  4  B  I  
+83  5  A  B  C  D  F  G  H  I  J  
+83  6  A  B  D  E  F  G  I  J  
+84  1  C  E  F  G  H  
+84  2  A  B  C  F  G  I  J  
+84  3  C  
+84  4  C  G  J  
+85  1  A  C  F  G  
+85  2  B  H  
+86  1  B  C  D  F  G  I  
+86  2  A  B  C  E  F  G  H  I  J  
+86  3  A  B  C  E  F  G  H  I  J  
+86  4  A  C  D  E  F  H  
+87  1  A  B  C  D  E  F  H  I  J  
+87  2  A  B  C  D  E  F  G  H  I  J  
+88  1  D  E  F  G  H  I  
+88  2  A  B  C  D  E  F  G  H  I  J  
+89  1  C  D  E  F  G  H  I  J  
+89  2  C  E  F  G  J  
+90  1  B  C  D  G  H  I  
+90  2  A  B  D  E  F  G  J  
+90  3  B  D  E  F  G  H  J  
+90  4  A  
+90  5  A  B  F  G  I  J  
+90  6  A  B  D  E  G  H  I  
+91  1  E  
+91  2  A  B  F  G  
+91  3  B  E  F  G  H  I  J  
+92  1  G  H  I  
+92  2  H  
+92  3  A  B  C  E  F  G  H  J  
+93  1  A  B  C  D  E  G  H  I  J  
+93  2  C  
+93  3  A  B  C  D  E  F  G  H  I  J  
+94  1  B  C  D  E  F  G  H  I  J  
+95  1  A  B  E  F  H  I  
+95  2  B  I  J  
+95  3  B  C  E  G  I  
+96  1  B  E  F  I  
+96  2  B  E  G  
+97  1  E  
+97  2  A  B  F  G  H  I  J  
+97  3  B  C  D  E  F  G  H  J  
+98  1  A  E  F  J  
+98  2  A  B  C  D  E  F  G  
+98  3  A  B  C  D  E  F  G  H  I  J  
+98  4  A  B  C  D  E  F  G  H  I  J  
+98  5  B  C  E  F  G  H  I  J  
+99  1  A  B  C  D  E  F  G  H  I  
+99  2  A  B  C  D  E  F  G  H  I  J  
+99  3  B  E  G  H  I  J  
+99  4  A  B  C  D  E  F  G  H  I  J  
+99  5  A  C  E  I  J  
+99  6  A  B  E  F  G  H  I  
+100  1  A  B  C  D  F  G  H  I  J  
+100  2  E  G  H  
+100  3  A  D  E  F  H  

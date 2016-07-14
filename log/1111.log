@@ -1,0 +1,2 @@
+g++    -c -o database.o database.cpp
+g++ -o gsp main.o gsp_read_input.o gsp_execute.o gsp_generate_candidates.o gsp_print_patterns.o seperator.o database.o pattern.o 

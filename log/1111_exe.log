@@ -1,0 +1,7 @@
+-i: ../data/seq.txt
+-t: 0.400000
+-sequNUM: 4
+-eventNUM: 4
+-min: 0
+-max: 5
+Patterns when k = 1
